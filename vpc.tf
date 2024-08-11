@@ -24,7 +24,7 @@ resource "aws_internet_gateway" "igw" {
   )
 }
 
-## Egress Only Gateway (IPv6)
+# Egress Only Gateway (IPv6)
 resource "aws_egress_only_internet_gateway" "eigw" {
   vpc_id = aws_vpc.consul.id
 }

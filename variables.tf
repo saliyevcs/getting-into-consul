@@ -47,7 +47,7 @@ variable "vpc_private_subnet_count" {
 variable "ami_id" {
   description = "AMI ID to be used on all AWS EC2 Instances."
   type        = string
-  default     = "ami-0747bdcabd34c712a" # Latest Ubuntu 18.04 LTS (HVM), SSD Volume Type
+  default     = "ami-04a81a99f5ec58529" # Latest Ubuntu 18.04 LTS (HVM), SSD Volume Type
 }
 
 variable "ec2_key_pair_name" {
